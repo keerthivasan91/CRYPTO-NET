@@ -225,8 +225,8 @@ document.addEventListener("DOMContentLoaded", () => {
         if (!hEl || !mEl || !sEl) return;
 
         const target = new Date();
-        target.setDate(target.getDate() + 1);
-        target.setHours(12, 30, 0, 0);
+        target.setDate(target.getDate() );
+        target.setHours(13, 0, 0, 0);
 
         const pad = (n) => String(n).padStart(2, "0");
 
